@@ -4,7 +4,7 @@
 This project is intended for educational and/or authorized testing purposes only. Do not use it on systems or networks without permission.
 
 ## DESCRIPTION
-This is a project that has multiple password and network based tools that can run directly from the Windows Command Prompt. This project was intented to restart my programming journey after being busy with school for a while. Initially, the project as supposed to be separate from the Windows command prompt; but then, I shifted the trajectory and made it a runnable variaty of tools directly from the Windows Command Prompt.
+This project has multiple password and network based tools which can be run directly from the Windows Command Prompt. This project was intented to restart my programming journey after being busy with school for a while. Initially, the project as supposed to be separate from the Windows command prompt; but then, I shifted the trajectory and made it a runnable variaty of tools directly from the Windows Command Prompt.
 
 ## PROJECT DIRECTORY
 CLI-Toolkit/
