@@ -37,8 +37,8 @@ CLI-Toolkit/
 ## Setup after Installation
 1. Extract .zip file of the CLI-Toolkit Project into desired directory.
 2. Copy the directory of the folder know as '**batch**'.
-4. Type, '**Edit the system environment variables**', this should open up the Control Panel.
-5. Look to the bottom-right, click, '**Environment Variables...**'.
+4. Type, '**Edit the system environment variables**', into the Windows Search, this should open up the Control Panel.
+5. Look to the bottom-righta and click, '**Environment Variables...**'.
 6. At the bottom of the new window, find, '**System variables**'.
 7. Use the scroll wheel to find, '**path**', in this '**System Variables**' section.
 8. Double-Click on '**path**'.
