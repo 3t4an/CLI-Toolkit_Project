@@ -92,5 +92,5 @@ et9m3k5xbl
 Licensed under the [Apache 2.0](https://github.com/3t4an/CLI-Toolkit_Project/blob/main/LICENSE) Licence
 
 ## REQUIREMENTS:
-python 3.11.9+
+python 3.11.9+<br>
 Windows
