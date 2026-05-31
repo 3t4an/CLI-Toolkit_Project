@@ -36,7 +36,8 @@ CLI-Toolkit/
 
 ## Setup after Installation
 1. Extract .zip file of the CLI-Toolkit Project into desired directory.
-2. Copy the directory of the folder know as '**batch**'.
+2. Run, '**install_dependencies.bat**' to install the neccessary python libraries.
+3. Copy the directory of the folder know as '**batch**'.
 4. Type, '**Edit the system environment variables**', into the Windows Search, this should open up the Control Panel.
 5. Look to the bottom-righta and click, '**Environment Variables...**'.
 6. At the bottom of the new window, find, '**System variables**'.
