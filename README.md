@@ -35,17 +35,16 @@ CLI-Toolkit/
 ```
 
 ## Setup after Installation
-1. Extract .zip file of the CLI-Toolkit Project into desired directory.
-2. Run, '**install_dependencies.bat**' to install the neccessary python libraries.
-3. Copy the directory of the folder know as '**batch**'.
-4. Type, '**Edit the system environment variables**', into the Windows Search, this should open up the Control Panel.
-5. Look to the bottom-righta and click, '**Environment Variables...**'.
-6. At the bottom of the new window, find, '**System variables**'.
-7. Use the scroll wheel to find, '**path**', in this '**System Variables**' section.
-8. Double-Click on '**path**'.
-9. Locate, '**New**' in the new window and click on it.
-10. Paste the copied directory of the folder known as, '**batch**'
-11. Click '**OK**', on everything to exit.
+1. Extract .zip file of the CLI-Toolkit Project into desired directory
+2. Copy the directory of the folder know as '**batch**'.
+3. Type, '**Edit the system environment variables**', into the Windows Search, this should open up the Control Panel.
+4. Look to the bottom-righta and click, '**Environment Variables...**'.
+5. At the bottom of the new window, find, '**System variables**'.
+6. Use the scroll wheel to find, '**path**', in this '**System Variables**' section.
+7. Double-Click on '**path**'.
+8. Locate, '**New**' in the new window and click on it.
+9. Paste the copied directory of the folder known as, '**batch**'
+10. Click '**OK**', on everything to exit.
 
 You can now run any of the CLI-Toolkit command from any directory in the Windows Command Prompt
 
