@@ -11,7 +11,7 @@ When building, I was trying to achieve an easier way to run cybersecurity comman
 
 ## Steps Taken to Build
 1. Planning - Spent a few weeks mapping out how would build the project and timeline that would be used to execute it.
-2. Starting Building - I first designed the `main.py` which would be the center of all commands and handeled command parsing, checking and interpretation.
+2. Starting Building - I first designed the `main.py` which would be the center of all commands and handled command parsing, checking and interpretation.
 3. Tool Building - After programming `main.py`, I began building the tools in this order:<br>
   a. `wordforge.py`<br>
   b. `securegen.py`<br>
@@ -20,7 +20,7 @@ When building, I was trying to achieve an easier way to run cybersecurity comman
   e. `ping.py`<br>
   f. `netscan.py`<br>
   g. `portscan.py`<br>
-4. Intention Change - I realized that for the tools the work coherently, they would need tools like `ping` and `arp`. However after building `ping.py`, I had the bright idea of making the project integrated with the Windows Command Prompt. This way, users could utilize the tools really easily while also having access to Windows own networking tools. This transition fulfilled one of the major goals.
+4. Intention Change - I realized that for the tools to work coherently, they would need Windows commands like `ping` and `arp`. However after building `ping.py`, I had the bright idea of making the project integrated with the Windows Command Prompt. This way, users could utilize the tools really easily while also having access to Windows own networking tools. This transition fulfilled one of the major goals.
 5. Make `interpreter.py` - After rebuilding a new plan, I began by changing `main.py` to `interpreter.py`. This change would allow arguments to be passed through the Python script, interpreted, and passed on to the right command.
 6. Create `.bat`'s - For the commands to be properly passed through from the CMD to `interpreter.py`, it needed a bridge. The batch files for each command successfully convey the passed arguments to `interpreter.py`.
 7. Create `help.py` - Like the CMD commands, I developed a `-h` tag for each command to see the proper usage.
@@ -56,7 +56,7 @@ et9m3k5xbl
 1. Extract .zip file of the CLI-Toolkit Project into desired directory
 2. Copy the directory of the folder know as '**batch**'.
 3. Type, '**Edit the system environment variables**', into the Windows Search, this should open up the Control Panel.
-4. Look to the bottom-righta and click, '**Environment Variables...**'.
+4. Look to the bottom-right and click, '**Environment Variables...**'.
 5. At the bottom of the new window, find, '**System variables**'.
 6. Use the scroll wheel to find, '**path**', in this '**System Variables**' section.
 7. Double-Click on '**path**'.
@@ -67,7 +67,7 @@ et9m3k5xbl
 You can now run any of the CLI-Toolkit command from any directory in the Windows Command Prompt
 
 ## Tools Used
-The CLI-Toolkit Project utilizes many of pythons various built-in libraries:
+The CLI-Toolkit Project utilizes many of Python's various built-in libraries:
 1. sys - for exiting the script when errors occur
 2. os - for directory handling
 3. itertools - for combination building in `wordforge.py`
@@ -77,7 +77,7 @@ The CLI-Toolkit Project utilizes many of pythons various built-in libraries:
 7. subprocess - for pinging local network IPs in `netscan.py`
 
 ## What did I learn
-I learned that for scripts which take raw input from users, I should constantly test and find common mistakes that people might make. Computers are dumb, and it is necessary for the script how handle all types of input from the users to aviod failure and errors being thrown. This is an essential skill to learn for many entry-level jobs. When building scripts that scan or take in information, it is necessary for the script to be prepared to handle all types of information being thrown at it. I also discovered how easy it is to integrate scripts with the Windows Command Prompt. Meaning, building custom commands and allowing custom tools to be run. This makes it much easier for a developer or user to access complex commands not built-in to Windows. 
+I learned that for scripts which take raw input from users, I should constantly test and find common mistakes that people might make. Computers are dumb, and it is necessary for the script to handle all types of input from the users to aviod failure and errors being thrown. This is an essential skill to learn for many entry-level jobs. When building scripts that scan or take in information, it is necessary for the script to be prepared to handle all types of information being thrown at it. I also discovered how easy it is to integrate scripts with the Windows Command Prompt. Meaning, building custom commands and allowing custom tools to be run. This makes it much easier for a developer or user to access complex commands not built-in to Windows. 
 
 ## What should I build next?
 With my recent planning to get into Cybersecurity and transition my Python learning to be more security-based, I leaning toward a Log Scanner. This mini project is intended to use my Python fundamentals and curved it toward security. This is a crucial part in my three-step roadmap to fully integrate my Cybersecurity journey with my Python journey.
@@ -113,7 +113,7 @@ CLI-Toolkit/
 | :--------- | :-----------
 | passgen    | allows users to create a personalized password wordlist or create a strong randomized password
 | passguard  | rates the password provided by the user
-| hashx      | hashes the provided password using a speicfied hash
+| hashx      | hashes the provided password using a specified hash
 | netscan    | pings all IPs in the local network using the specified range and amount of ICMP requests
 | portscan   | scans the ports of a specified IP on the local network using the range provided.
 
